@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em (altura do M), ex (altura do x), rem, vw (viewport width), vh 
+
+            Tamanho normal da fonte: 16px = 1em
+            */
+            font-size: 1em;
+            /*font-weight: normal;
+            lighter normal bold bolder
+            100 - 900
+            font-style: normal;
+            text-decoration: underline;*/
+        }
+        h1{
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /* shorthand font
+            
+            - font style -> font-weight -> font size -> font-family*/
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero asperiores a nostrum amet. Fuga ullam repellat doloribus, ut quas exercitationem vel nam, tenetur quibusdam consequuntur excepturi modi officiis ipsum? Animi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt reprehenderit temporibus natus! Sit expedita natus nobis facilis incidunt deleniti velit! Ea laboriosam aut error hic maxime doloremque, sed nam? Omnis?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ad labore id, reprehenderit maiores dicta facilis, sint dolorem deserunt accusamus minima illum excepturi. Nulla deleniti aut hic laudantium a quam.</p>
+</body>
+</html>
